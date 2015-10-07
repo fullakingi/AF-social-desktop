@@ -463,9 +463,6 @@ button.hide {
   transform-origin: 50% 0%;
   background: rgba(0,0,0,0.0) url(img-social/panel.png) -7px 0;
   background-size: 399px 357px;
-  min-width: 760px;
-  max-width: 1200px;
-  margin-left: -150px;
 }
 .about .panel header {
   padding: 1em 0 1em;
@@ -1294,10 +1291,7 @@ button.hide {
     height: 56px;
     width: 56px;
   }
-  .center {
-    max-width: 440px;
-  }
-
+  
   .about .panel:after {
     background-size: 252px 252px;
     height: 180px;
@@ -1592,11 +1586,6 @@ button.hide {
     font-size: 15px;
   }
 
-  .center {
-    max-width: 560px;
-     
-  }
-
   .about .panel:after {
     background-size: 280px 280px;
     height: 200px;
@@ -1851,11 +1840,6 @@ button.hide {
 @media all and (min-width: 1200px) {
   html {
     font-size: 16px;
-  }
-
-  .center {
-    max-width: 620px;
-    
   }
 
   .about .panel:after {
@@ -2550,23 +2534,3 @@ td, th {
 .no-border {
     border-left: none;
 }
-
-/* NEW PANEL */
-
-#container {
-    display: block;
-    min-width: 760px;
-}
-
-.about .panel {
-    min-width: 760px;
-    margin-left: 0;
-}
-
-.center {
-    max-width: 1200px;
-    min-width: 760px;
-}
-
-
-    
