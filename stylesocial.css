@@ -366,7 +366,7 @@ button.hide {
 }
 
 .cell {
-  vertical-align: bottom;
+  vertical-align: middle;
   padding-bottom: 80px;
   display: table-cell;
 }
